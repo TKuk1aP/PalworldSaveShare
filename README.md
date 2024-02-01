@@ -1,6 +1,6 @@
 # Palworld Save Share
 
-### An extensive guide on how to transfer a co-op save to another user while retaining all progress.
+### A complete step by step guide on how to transfer a co-op save to another user while retaining all progress.
 The process will require some collaboration between both parties.
 
 <br />
@@ -44,7 +44,7 @@ The save directory can be located at the following path
 
 This directory will contain all of your Palworld saves including the ones from the worlds you've visited.
 
-If you see more than one save, the simplest way to identify the correct one is by loading it in the game, saving it and than sorting the directories by *```'Date modified'```*, the latest should be the one.
+If you see more than one save, the simplest way to identify the correct one is by loading it in the game, saving it and then sorting the directories by *```'Date modified'```*, the latest should be the one.
 
 > [!IMPORTANT]
 > Manually backup your entire save to avoid losing it to data corruption
