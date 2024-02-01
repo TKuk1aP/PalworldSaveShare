@@ -1,6 +1,6 @@
 # Palworld Save Share
 
-### A complete step by step guide on how to transfer a co-op save to another user while retaining all progress.
+### A complete step-by-step guide on how to transfer a co-op save to another user while retaining all progress.
 The process will require some collaboration between both parties.
 
 <br />
@@ -20,7 +20,7 @@ The entire process takes about 15 minutes.
 
 - Download and install [Notepad++](https://notepad-plus-plus.org/) (Highly recommended)
 > [!NOTE]
-> This can be any other editor that can handle large documents and provides the abillity to ***Search & Replace*** all occurances in a file
+> This can be any other editor that can handle large documents and provides the ability to ***Search & Replace*** all occurrences in a file
 
 <br />
 <br />
@@ -64,7 +64,7 @@ If you see more than one save, the simplest way to identify the correct one is b
 <br />
 
 ## Step 3 - Cooperation
-### In this step both parties have to cooperate in order retrieve some values which will be cruicial in the following steps
+### In this step both parties have to cooperate in order to retrieve some values which will be crucial in the following steps
 > [!NOTE]
 > ***Host*** - refers to the current host
 >
@@ -171,23 +171,23 @@ Players\Client_Guid.sav
 >[!TIP]
 > This backup will serve as a fallback point for you to avoid repeating the conversion process should anything go wrong
 
-## Step 4 - Editing player files
+## Step 5 - Editing player files
 
 Using the text editor of your choice, open the newly generated ```player.sav.json``` files from the ```Work``` folder
    
 ### In ```000...001.sav.json```
-- Replace all occurances of ```00000000-0000-0000-0000-000000000001``` with ```Host_guid```
+- Replace all occurrences of ```00000000-0000-0000-0000-000000000001``` with ```Host_guid```
 - Save and close the file
 
 <br />
      
 ### In ```Client_name.sav.json```
-- Replace all occurances of ```Client_guid``` with ```00000000-0000-0000-0000-000000000001```
+- Replace all occurrences of ```Client_guid``` with ```00000000-0000-0000-0000-000000000001```
 - Save and close the file
 
 <br />
 
-## Step 5 - Editing Level file
+## Step 6 - Editing Level file
 
 Using the text editor of your choice, open the newly generated ```Level.sav.json``` file from the ```Work``` folder
 > [!CAUTION]
@@ -195,10 +195,10 @@ Using the text editor of your choice, open the newly generated ```Level.sav.json
 
 <br />
 
-- 1..8. Open the ```Guid``` text document and follow your own personalized instructions searching for all occurances and replacing them with their corresponding values between ```(``` and ```)```
+- 1..8. Open the ```Guid``` text document and follow your own personalized instructions searching for all occurrences and replacing them with their corresponding values between ```(``` and ```)```
 <br />
 
-9. Find and replace **ONLY THE FIRST** occurance of ```00000000-0000-0000-0000-000000000001``` with ```Host_guid```
+9. Find and replace **ONLY THE FIRST** occurrence of ```00000000-0000-0000-0000-000000000001``` with ```Host_guid```
 > [!CAUTION]
 > Only applicable if the host has not been changed previously! <sup>see notes</sup>[^5.7]
 
@@ -206,24 +206,21 @@ Using the text editor of your choice, open the newly generated ```Level.sav.json
 
 <br />
 
-10. Replace **ALL** occurances of ```Client_guid``` with ```00000000-0000-0000-0000-000000000001```
+10. Replace **ALL** occurrences of ```Client_guid``` with ```00000000-0000-0000-0000-000000000001```
 11. Save and close the file
 
 <br />
 
-## Step 6 - The Grand Finale
+## Step 7 - The Grand Finale
 
-Now with the tedious part out of the way there are just a few simple steps left
+Now with the tedious part out of the way, there are just a few simple steps left
 
 <br />
 
 1. Convert the edited ***JSON*** files back to ***SAV*** by dragging them one by one onto the ```convert-single-json-to-sav.bat``` file in the ```palworld-save-tools``` directory
 2. Rename the newly generated ```000...001.sav``` file to ```Host_name.sav```
 3. Rename the newly generated ```Client_name.sav``` file to ```00000000000000000000000000000001.sav```
-4. Replace the old files in your save directory with the edited versions
-
-If you have managed to follow me to this point then ***Congratulations!***
-You have successfully swapped roles, characters and progress with the second party.
+4. Replace the old files in your save folder with their edited versions
 
 ### Lastly, the contents of the save folder should be transferred to the new Host and dropped into the save folder
 > [!NOTE]
@@ -232,6 +229,24 @@ You have successfully swapped roles, characters and progress with the second par
 > [!NOTE]
 > Both the host and the client might have to disable steam cloud to load the save for the first time
 
+<br />
+
+## Testing
+
+> If the original ***Host*** attempts to load the save
+>- The ***Host*** will take over the ***Client***'s character and progression
+>- The ***Client*** will be prompted with the character creation screen
+
+> If the ***Client*** attempts to load the save
+>- Both the ***Client*** and the ***Host*** will retain their own characters and progression
+
+<br />
+  
+## Conclusion
+### The ***Host*** is now the ***Client***
+### The ***Client*** is now the ***Host***
+
+<br />
 
 ## Credits
 
