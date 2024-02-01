@@ -233,18 +233,24 @@ Now with the tedious part out of the way, there are just a few simple steps left
 
 ## Testing
 
-> If the original ***Host*** attempts to load the save
->- The ***Host*** will take over the ***Client***'s character and progression
->- The ***Client*** will be prompted with the character creation screen
+If the original ***Host*** attempts to load the save
+- The ***Host*** will take over the ***Client***'s character and progression
+- The ***Client*** will be prompted with the character creation screen
 
-> If the ***Client*** attempts to load the save
->- Both the ***Client*** and the ***Host*** will retain their own characters and progression
+If the ***Client*** attempts to load the save
+- Both the ***Client*** and the ***Host*** will retain their own characters and progression
 
 <br />
   
 ## Conclusion
+
+<br />
+  
 ### The ***Host*** is now the ***Client***
 ### The ***Client*** is now the ***Host***
+
+<br />
+  
 
 <br />
 
