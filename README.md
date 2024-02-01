@@ -122,6 +122,8 @@ The values above are meant to serve as an EXAMPLE only, using them will corrupt 
 7.  SEARCH -> ([\r\n                                            "00000000-0000-0000-0000-000000000001")    7.  REPLACE -> ([\r\n                                            "Host_guid")
 8.  SEARCH -> (,\r\n                                            "00000000-0000-0000-0000-000000000001")    8.  REPLACE -> (,\r\n                                            "Host_guid")
 ```
+> [!CAUTION]
+> Additional formatting may be required if your editor does not recognize ```\r\n``` as a line break
 
 <br />
 
