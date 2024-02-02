@@ -234,15 +234,19 @@ Now with the tedious part out of the way, there are just a few simple steps left
 ## Testing
 
 If the original ***Host*** attempts to load the save
-- The ***Host*** will take over the ***Client***'s character and progression
+- The ***Host*** will take over the ***Client***'s character and progress
 - The ***Client*** will be prompted with the character creation screen
 
 If the ***Client*** attempts to load the save
-- Both the ***Client*** and the ***Host*** will retain their own characters and progression
+- Both the ***Client*** and the ***Host*** will retain their own characters and progress
 
 <br />
   
 ## Conclusion
+
+If you managed to follow me to this point then ***Congratulations!***
+
+You have successfully swapped roles, characters and progress with the second party.
 
 <br />
   
@@ -262,3 +266,5 @@ If the ***Client*** attempts to load the save
 <br />
 
 ### Notes
+
+
