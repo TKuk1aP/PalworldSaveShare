@@ -119,8 +119,8 @@ The values above are meant to serve as an EXAMPLE only, using them will corrupt 
 4. SEARCH -> (_uid": "Client_guid")                                                                        4.  REPLACE -> (_uid": "00000000-0000-0000-0000-000000000001")
 5. SEARCH -> ("group_name": "00000000000000000000000000000001")                                            5.  REPLACE -> ("group_name": "Host_group")
 6. SEARCH -> ("group_name": "Client_group")                                                                6.  REPLACE -> ("group_name": "00000000000000000000000000000001")
-7.  SEARCH -> ([\r\n                                            "00000000-0000-0000-0000-000000000001")    7.  REPLACE -> ([\r\n                                            "Host_guid")
-8.  SEARCH -> (,\r\n                                            "00000000-0000-0000-0000-000000000001")    8.  REPLACE -> (,\r\n                                            "Host_guid")
+7. SEARCH -> ([\r\n                                            "00000000-0000-0000-0000-000000000001")     7.  REPLACE -> ([\r\n                                            "Host_guid")
+8. SEARCH -> (,\r\n                                            "00000000-0000-0000-0000-000000000001")     8.  REPLACE -> (,\r\n                                            "Host_guid")
 ```
 > [!CAUTION]
 > Additional formatting may be required if your editor does not recognize ```\r\n``` as a line break
@@ -143,8 +143,8 @@ f632c4e9000000000000000000000000         Client_group
 4. SEARCH -> (_uid": "f632c4e9-0000-0000-0000-000000000000")                                               4.  REPLACE -> (_uid": "00000000-0000-0000-0000-000000000001")
 5. SEARCH -> ("group_name": "00000000000000000000000000000001")                                            5.  REPLACE -> ("group_name": "b8222bf0000000000000000000000000")
 6. SEARCH -> ("group_name": "f632c4e9000000000000000000000000")                                            6.  REPLACE -> ("group_name": "00000000000000000000000000000001")
-7.  SEARCH -> ([\r\n                                            "00000000-0000-0000-0000-000000000001")    7.  REPLACE -> ([\r\n                                            "b8222bf0-0000-0000-0000-000000000000")
-8.  SEARCH -> (,\r\n                                            "00000000-0000-0000-0000-000000000001")    8.  REPLACE -> (,\r\n                                            "b8222bf0-0000-0000-0000-000000000000")
+7. SEARCH -> ([\r\n                                            "00000000-0000-0000-0000-000000000001")     7.  REPLACE -> ([\r\n                                            "b8222bf0-0000-0000-0000-000000000000")
+8. SEARCH -> (,\r\n                                            "00000000-0000-0000-0000-000000000001")     8.  REPLACE -> (,\r\n                                            "b8222bf0-0000-0000-0000-000000000000")
 
 The values above are meant to serve as an EXAMPLE only, using them will corrupt your save
 ```
